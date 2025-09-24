@@ -56,11 +56,11 @@ df
 ## Original Encoder
 ```
 from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
-```
+
 pm=['Hot','Warm','Cold']
 e1=OrdinalEncoder(categories=[pm])
 e1.fit_transform(df[["ord_2"]])
-
+```
 ![image](https://github.com/user-attachments/assets/02b8f785-d322-406d-9016-4c52227d497c)
 
 
