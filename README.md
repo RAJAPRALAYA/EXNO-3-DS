@@ -46,11 +46,11 @@ We use this categorical data encoding technique when the features are nominal(do
  
 
 
-
+```
 import pandas as pd
 df=pd.read_csv("/content/Encoding Data.csv")
 df
-
+```
 ![image](https://github.com/user-attachments/assets/b8726d13-1b16-43fe-92e6-afd12882c02b)
 
 ## Original Encoder
